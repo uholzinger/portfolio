@@ -1,13 +1,13 @@
 {
-  "homepage":"http://ulysse-holzinger.github.io/portfolio/",
+  "homepage":"https://uholzinger.github.io/portfolio/",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "node app.js",
-    "deploy": "gh-pages -d build"
+    "predeploy": "echo 'no predeploy'",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
